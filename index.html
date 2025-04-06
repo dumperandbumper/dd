@@ -4,54 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dumper and Bumper Birliği (Sunucu 3779)</title>
+    <title>Dumper and Bumper Birliği (Sunucu 3779)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-body {
-            font-family: 'Arial', sans-serif;
-            background-color: #222;
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e272e;
             color: #fff;
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: flex-start;
             min-height: 100vh;
-background-image: url('https://i.pinimg.com/originals/78/3a/99/783a99c79e0db7544ca7a28bca9efc49.jpg');
+            background-image: url('https://i.imgur.com/Jg5vUmO.jpg');
             background-size: cover;
-            background-blend-mode: multiply;
-            overflow: hidden;
+            background-position: center;
+            background-attachment: fixed;
         }
 
-.container {
-            background-color: rgba(34, 34, 34, 0.9);
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        .container {
+            background-color: rgba(30, 39, 46, 0.8);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+            width: 90%;
+            max-width: 800px;
+            margin-top: 50px;
+            margin-bottom: 50px;
             text-align: center;
-            width: 70%;
-            max-width: 700px;
-            transform: scale(0.8);
         }
 
         h1 {
-            color: #ffcc00;
-            font-size: 3.5em;
+            color: #feca57;
+            font-size: 2.8em;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         h2 {
-            color: #ddd;
+            color: #95afc0;
             margin-top: 30px;
-            font-size: 2.4em;
+            font-size: 2em;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
         }
 
-p {
-            font-size: 1.2em;
-            line-height: 1.5;
-            color: #eee;
-            margin-bottom: 20px;
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #dcdde1;
+            margin-bottom: 25px;
         }
 
         .officer-list {
@@ -61,50 +64,53 @@ p {
             margin-top: 20px;
         }
 
-.officer-card {
-            background-color: #555;
-            border-radius: 8px;
+        .officer-card {
+            background-color: #2d3436;
+            border-radius: 10px;
             padding: 10px 15px;
             margin: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-            font-size: 1em;
-        }
-
-        .server-info {
-            margin-top: 40px;
-            font-size: 1.6em;
-            color: #ffbb33;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-        }
-
-.instagram-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #e91e63;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 20px;
-            font-size: 1.2em;
-            font-weight: bold;
+            font-size: 0.9em;
             transition: background-color 0.3s ease;
         }
 
-        .instagram-link:hover {
-            background-color: #c2185b;
+        .instagram-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background-color: #6ab04c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .leader-card {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #c0392b;
+            color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .description {
+            font-size: 1.2em;
+            line-height: 1.7;
+            color: #eee;
+            margin-bottom: 30px;
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="left-column">
+    <div class="container">
         <h1>Dumper and Bumper Birliği <span style="font-size: 0.6em; vertical-align: top;">(3779)</span></h1>
         <p class="description">Rise of Kingdoms'da efsanevi zaferlere ulaşmak için bir araya geldik! Güçlü stratejilerimiz ve sarsılmaz dostluğumuzla düşmanlarımıza korku salıyoruz. Bize katılın ve bu destansı yolculukta yerinizi alın!</p>
-        <a href="https://www.instagram.com/dumperandbumper" class="instagram-link" target="_blank">
-            <i class="fab fa-instagram"></i> Bizi Instagram'da Takip Edin!
-        </a>
-    </div>
-    <div class="right-column">
         <div class="leader-section">
             <h2>Birlik Lideri</h2>
             <p class="leader-card">👑 NykSS</p>
@@ -121,133 +127,9 @@ p {
             <div class="officer-card">🛡️ 1Madara!</div>
             <div class="officer-card">🛡️ meybilm</div>
         </div>
+        <a href="https://www.instagram.com/dumperandbumper" class="instagram-link" target="_blank">
+            <i class="fab fa-instagram"></i> Bizi Instagram'da Takip Edin!
+        </a>
     </div>
-</div>
 </body>
 </html>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #181818;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url('https://i.pinimg.com/originals/78/3a/99/783a99c79e0db7544ca7a28bca9efc49.jpg');
-    background-size: cover;
-    background-blend-mode: multiply;
-    overflow: hidden;
-}
-
-.container {
-    background-color: rgba(34, 34, 34, 0.95);
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-    width: 90%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.left-column {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.right-column {
-    width: 100%;
-    text-align: center;
-}
-
-h1 {
-    color: #ffcc00;
-    font-size: 2em;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-h2 {
-    color: #eee;
-    margin-top: 15px;
-    font-size: 1.4em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-    border-bottom: 2px solid #555;
-    padding-bottom: 3px;
-}
-
-p {
-    font-size: 0.9em;
-    line-height: 1.4;
-    color: #ddd;
-    margin-bottom: 15px;
-}
-
-.officer-list {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 15px;
-}
-
-.officer-card {
-    background-color: #444;
-    border-radius: 10px;
-    padding: 8px 14px;
-    margin: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-    font-size: 0.95em;
-    transition: background-color 0.3s ease;
-}
-
-.officer-card:hover {
-    background-color: #555;
-}
-
-.instagram-link {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 10px 20px;
-    background-color: #e91e63;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 1.1em;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.instagram-link:hover {
-    background-color: #c2185b;
-}
-
-.leader-card {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #d32f2f;
-    color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-.description {
-    font-size: 1.2em;
-    line-height: 1.7;
-    color: #eee;
-    margin-bottom: 30px;
-}
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
